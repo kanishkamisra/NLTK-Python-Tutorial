@@ -1,4 +1,4 @@
-# This shit doesn't make sense but oh well. Experiment has been experimented.
+# This shit doesn't make sense but oh well. The Experiment has been experimented.
 
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize as wt
