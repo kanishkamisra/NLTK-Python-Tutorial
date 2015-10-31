@@ -6,10 +6,6 @@ stop_words = set(stopwords.words("english"))
  # print stop_words
 
 words = wt(example_sentence)
-filtered_sentence = []
-
-for w in words:
-	if w not in stop_words:
- 		filtered_sentence.append(w)
+filtered_sentence = [ w for w in words if w not in stop_words]
 
 print filtered_sentence
